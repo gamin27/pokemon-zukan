@@ -40,9 +40,10 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
-# output file
+## setting output file
 
-```js:config/index.js
+```js
+// config/index.js
   build: {
     // Template for index.html
     index: path.resolve(__dirname, '../docs/index.html'),// update
@@ -50,7 +51,7 @@ npm run build --report
     // Paths
     assetsRoot: path.resolve(__dirname, '../docs'), //update
     assetsSubDirectory: 'static',
-    assetsPublicPath: './', //update
+    assetsPublicPath: './pokemon-zulan', //update
     //省略
   }
 ```

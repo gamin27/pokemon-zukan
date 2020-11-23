@@ -7,7 +7,7 @@ import Temoti from '@/views/Temoti'
 
 Vue.use(Router)
 
-const basePATH = '/pokemon-deck'
+const basePATH = '/pokemon-zukan'
 const router = new Router({
   mode: 'history',
   base: process.env.BASE_URL,
