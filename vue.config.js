@@ -5,5 +5,7 @@ module.exports = {
         prependData: '@import "./src/assets/index.min.css";'
       }
     }
-  }
+  },
+  publicPath: './',
+  outputDir: 'docs/',
 };
