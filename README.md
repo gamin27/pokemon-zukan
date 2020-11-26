@@ -40,20 +40,5 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
-## setting output file
-
-```js
-// config/index.js
-  build: {
-    // Template for index.html
-    index: path.resolve(__dirname, '../docs/index.html'),// update
-
-    // Paths
-    assetsRoot: path.resolve(__dirname, '../docs'), //update
-    assetsSubDirectory: 'static',
-    assetsPublicPath: './pokemon-zulan', //update
-    //省略
-  }
-```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
