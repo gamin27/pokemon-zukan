@@ -15,6 +15,7 @@ export default {
   $main: #4e4e4e;
   $light: #d0d0d0;
   input {
+    margin: 0;
     width: 100%;
     border: 0;
     border-radius: 0;

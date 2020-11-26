@@ -265,12 +265,14 @@ $light-c: #e4e4e4;
 
 .btn {
   font-family: 'pokemon-font', 'Noto Sans JP';
+  margin: 0 auto;
   width: 100%;
   font-size: 1.4rem;
   font-weight: bold;
   line-height: 48px;
   display: block;
-  border: 0px solid;
+  border: 0;
+  padding: 0;
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;

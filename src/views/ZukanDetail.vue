@@ -278,9 +278,6 @@ $img: 150px;
   color: $light;
   background: $main;
   transition: all 0.4s;
-  &:hover {
-    border-radius: 50px;
-  }
   &.active {
     background: #fff;
     color: $main;
@@ -391,9 +388,6 @@ $img: 150px;
       padding: 8px;
       font-size: 1.6rem;
       transition: border-radius 0.4s;
-      &:hover {
-        border-radius: 50px;
-      }
     }
     .no {
       font-size: 1.6rem;
