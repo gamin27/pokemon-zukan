@@ -16,7 +16,9 @@
         <div class="no">{{ item.id }}</div>
         <div class="poke-img">
           <p v-if="imgShow"><img :src="item.spriteURL" :alt="item.name" /></p>
-          <p v-else class="dummy-box"></p>
+          <div v-else class="dummy-box">
+            <div class="loader"></div>
+          </div>
         </div>
         <p class="name">{{ item.name }}</p>
         <div v-if="typesShow" class="type">
