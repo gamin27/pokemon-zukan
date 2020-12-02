@@ -42,6 +42,7 @@ npm run build
 
 # serve with node.js
 node server.js
+
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
