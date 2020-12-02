@@ -7,24 +7,23 @@ import Temoti from '@/views/Temoti'
 
 Vue.use(Router)
 
-const basePATH = '/pokemon-zukan'
 const router = new Router({
   mode: 'history',
   base: process.env.BASE_URL,
   routes: [
     {
       name: 'home',
-      path: basePATH + '/',
+      path: '/',
       component: Home,
     },
     {
       name: 'zukan',
-      path: basePATH + '/zukan',
+      path: '/zukan',
       component: Zukan,
     },
     {
       name: 'zukan-detail',
-      path: basePATH + '/zukan/:id',
+      path: '/zukan/:id',
       component: ZukanDetail,
       props: (route) => ({
         p_id: Number(route.params.id),
@@ -36,7 +35,7 @@ const router = new Router({
     },
     {
       name: 'temoti',
-      path: basePATH + '/temoti',
+      path: '/temoti',
       component: Temoti,
     },
   ],
