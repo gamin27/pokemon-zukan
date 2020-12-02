@@ -1,12 +1,15 @@
 # pokemon-zukan
   ポケモンのパーティを編成できるSingle Page App.
 
-  デモページはこちら→[ぽけもんずかん](https://gamin27.github.io/pokemon-zukan/)
+  デモページはこちら→[ぽけもんずかん](https://pure-ridge-71592.herokuapp.com/)
 
   <img src="readme/readme.jpg" width="500px">
 
-## 技術・API
+## 技術・フレームワーク・API
+  * Heroku
+  * Node.js
   * Vue-CLI
+  * webpack
   * Vuex
   * PokeAPI
   * pokemonJSON
@@ -37,6 +40,8 @@ npm run dev
 # build for production with minification
 npm run build
 
+# serve with node.js
+node server.js
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
