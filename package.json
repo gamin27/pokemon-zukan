@@ -2,7 +2,7 @@
   "name": "pokemon-zukan",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "gamine <48608531+gamin-yojo@users.noreply.github.com>",
+  "author": "gamine <48608531+gamin27@users.noreply.github.com>",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
@@ -14,6 +14,7 @@
   "dependencies": {
     "axios": "^0.21.0",
     "babel-polyfill": "^6.26.0",
+    "connect-history-api-fallback": "^1.6.0",
     "css-loader": "^2.0.0",
     "express": "^4.17.1",
     "ityped": "^1.0.3",
