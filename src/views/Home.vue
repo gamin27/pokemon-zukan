@@ -49,24 +49,26 @@ export default {
       })
   },
   mounted() {
-    //iTyped.js
+    typing()
+  },
+}
+
+async function typing() {
+      //iTyped.js
     init(`#text1`, {
       strings: [`おきにいりのパーティをつくって`],
       typeSpeed: 100,
-      startDelay: 1000,
+      startDelay: 2000,
       loop: false,
       showCursor: false,
-      onFinished: () => {},
     })
-    //iTyped.js 2行目
     init(`#text2`, {
       strings: [`ポケモンマスターをめざそう! ▼`],
       typeSpeed: 100,
-      startDelay: 3000,
+      startDelay: 4500,
       loop: false,
       showCursor: false,
     })
-  },
 }
 </script>
 
@@ -114,7 +116,7 @@ $main: #4e4e4e;
     .itype-box {
       margin: 0;
       padding: 0 16px;
-      min-height: 10rem;
+      min-height: 12rem;
 
       .text {
         font-size: 1.4rem;
@@ -151,7 +153,7 @@ $main: #4e4e4e;
     }
     .itype-box {
       padding: 0 16px;
-      min-height: 10rem;
+      min-height: 12rem;
       .text {
         font-size: 2rem;
         line-height: 5.6rem;
