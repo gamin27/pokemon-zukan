@@ -9,7 +9,7 @@
           </Jump>
         </div>
         <div class="itype-box">
-          <div id="text" class="text"></div>
+          <div id="text1" class="text"></div>
           <div id="text2" class="text"></div>
         </div>
         <router-link :to="{ name: 'zukan' }" class="to-zukan">
@@ -42,10 +42,6 @@ export default {
     axios(imageConfig(Math.floor(Math.random() * (this.max - 1) + 1)))
       .then((res) => {
         this.image = window.URL.createObjectURL(res.data)
-        //homura chan
-        // if (Math.floor(Math.random() * (6 - 1) + 1) == 1) {
-        //   this.image = 'https://pbs.twimg.com/profile_images/1322529526941839360/Nvc09Tpz_400x400.jpg'
-        // }
         this.show = true
       })
       .catch((er) => {
@@ -54,28 +50,22 @@ export default {
   },
   mounted() {
     //iTyped.js
-    init(`#text`, {
+    init(`#text1`, {
       strings: [`おきにいりのパーティをつくって`],
       typeSpeed: 100,
       startDelay: 1000,
       loop: false,
       showCursor: false,
-      onFinished: () => {
-        this.typed2()
-      },
+      onFinished: () => {},
     })
-  },
-  methods: {
     //iTyped.js 2行目
-    typed2() {
-      init(`#text2`, {
-        strings: [`ポケモンマスターをめざそう! ▼`],
-        typeSpeed: 100,
-        startDelay: 1000,
-        loop: false,
-        showCursor: false,
-      })
-    },
+    init(`#text2`, {
+      strings: [`ポケモンマスターをめざそう! ▼`],
+      typeSpeed: 100,
+      startDelay: 3000,
+      loop: false,
+      showCursor: false,
+    })
   },
 }
 </script>
