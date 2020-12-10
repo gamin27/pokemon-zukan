@@ -1,7 +1,7 @@
 {
 	"name":				"ポケモンずかん",
-	"short_name":		"pokemonzukan",
-	"start_url":		"./index.html",
+	"short_name":		"ずかん",
+	"start_url":		"/",
 	"display":			"standalone",
 	"orientation":		"any",
 	"background_color":	"#fff",
