@@ -1,4 +1,5 @@
 # pokemon-zukan
+
   ポケモンのパーティを編成できるSingle Page App.
 
   デモページはこちら→[ぽけもんずかん](https://pure-ridge-71592.herokuapp.com/)
@@ -6,6 +7,7 @@
   <img src="readme/readme.jpg" width="500px">
 
 ## 技術・フレームワーク・API
+
   * Heroku
   * Node.js
   * Vue-CLI
@@ -15,6 +17,7 @@
   * pokemonJSON
 
 ## 高速検索機能
+
   名前検索の他にタイプで絞り込みができます。
   また、番号順や名前順にソートできます。
 
@@ -26,7 +29,9 @@
 
   <img src="readme/detail.png" width="300px">
 
+## PWA化
 
+  スマホブラウザの煩雑な上部のURLバーや下部のメニューバーがなく、スマホアプリのような体験ができます。ß
 
 ## Build Setup
 
