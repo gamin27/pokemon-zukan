@@ -54,21 +54,21 @@ export default {
 }
 
 async function typing() {
-      //iTyped.js
-    init(`#text1`, {
-      strings: [`おきにいりのパーティをつくって`],
-      typeSpeed: 100,
-      startDelay: 2000,
-      loop: false,
-      showCursor: false,
-    })
-    init(`#text2`, {
-      strings: [`ポケモンマスターをめざそう! ▼`],
-      typeSpeed: 100,
-      startDelay: 4500,
-      loop: false,
-      showCursor: false,
-    })
+  //iTyped.js
+  init(`#text1`, {
+    strings: [`おきにいりのパーティをつくって`],
+    typeSpeed: 100,
+    startDelay: 2000,
+    loop: false,
+    showCursor: false,
+  })
+  init(`#text2`, {
+    strings: [`ポケモンマスターをめざそう! ▼`],
+    typeSpeed: 100,
+    startDelay: 4500,
+    loop: false,
+    showCursor: false,
+  })
 }
 </script>
 
