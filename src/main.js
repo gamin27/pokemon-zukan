@@ -1,5 +1,5 @@
 // Vue develop tool
-// Vue.config.devtools = true
+Vue.config.devtools = process.env.DEV
 import Vue from 'vue'
 import App from './App'
 import router from '@/router.js'
@@ -22,4 +22,3 @@ new Vue({
   template: '<App/>',
   render: (h) => h(App),
 })
-console.log(process.env.BASE_URL)
